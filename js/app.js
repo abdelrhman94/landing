@@ -2,10 +2,7 @@ const sections = Array.from(document.getElementsByTagName('section'));
 const title = document.getElementById('title');
 const navbarList = document.getElementById('navbar__list');
 
-/**
- * jQuery Scroll to element
- * @param target: jQuery selector
- */
+
 function scrollTo(target) {
   $('html,body').animate(
     {
